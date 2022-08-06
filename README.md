@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Морской бой онлайн на React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Попробовать приложение можно здесь [клик](https://rajabov-guru.github.io/react-battleship/).
 
 ## Available Scripts
 
