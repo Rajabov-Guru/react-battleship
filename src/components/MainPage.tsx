@@ -23,6 +23,7 @@ const MainPage = () => {
     const {key} = useParams();
 
     useEffect(()=>{
+        console.log(key);
         setUrl(window.location.href);
         Game.restart();
         if(key) Game.setGameId(key);
@@ -149,7 +150,7 @@ const MainPage = () => {
 
                 {!Game.start &&
                     <div className={'wrapper'}>
-                        <div className={'explain'}>Отправьте ссылку ниже другу, для подключения )</div>
+                        <div className={'explain'}>Отправьте ссылку ниже другу, для подключения ;)</div>
                         <div className={'url'}>{url}</div>
                     </div>
                 }
