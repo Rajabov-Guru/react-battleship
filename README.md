@@ -1,6 +1,6 @@
 # Морской бой онлайн на React
 
-Попробовать приложение можно здесь [клик](https://rajabov-guru.github.io/react-battleship/).
+Попробовать приложение можно здесь [a relative клик](https://rajabov-guru.github.io/react-battleship/).
 
 ## Available Scripts
 
