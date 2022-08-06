@@ -1,6 +1,8 @@
 # Морской бой онлайн на React
 
-Попробовать приложение можно здесь [клик](https://rajabov-guru.github.io/react-battleship/).
+[Попробовать приложение](https://rajabov-guru.github.io/react-battleship/)
+
+[Серверная часть](https://github.com/Rajabov-Guru/react-battleship-server/tree/main)
 
 ## Реализованный функционал
 
@@ -8,7 +10,7 @@
 * Рандомная генерация флота
 * Возможность играть с другом онлайн
 
-[Источник вдохновления](http://ru.battleship-game.org/).
+[Источник вдохновления](http://ru.battleship-game.org/)
 
 ## Автор
 
