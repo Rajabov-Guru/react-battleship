@@ -1,0 +1,17 @@
+.overlay{
+    box-sizing: border-box;
+    position: absolute;
+    content: '';
+    width: max-content;
+    height: max-content;
+    background: red;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.overlay.green{
+    background: lawngreen;
+    opacity: 1;
+}

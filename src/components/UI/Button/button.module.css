@@ -1,0 +1,14 @@
+.button{
+    background: #0098ff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    /*animation: neon2 1.5s ease-in-out infinite alternate;*/
+}
+
+.button:disabled{
+    background: #777777;
+}

@@ -1,0 +1,18 @@
+.field{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*border-spacing: 12px;*/
+    position: relative;
+}
+
+.disable:after{
+    position:absolute;
+    content: '';
+    width: 107%;
+    height: 107%;
+    /*background: #282828;*/
+    opacity: 0.5;
+    top: -7%;
+    left: -7%;
+    z-index: 150;
+}

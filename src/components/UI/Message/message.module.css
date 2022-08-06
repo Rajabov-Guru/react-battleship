@@ -1,0 +1,54 @@
+.message{
+    width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    height: max-content;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 15px;
+    background: #f3e7e7;
+    color:black;
+    position:absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0);
+    /*font-weight: bold;*/
+    letter-spacing: 2px;
+    line-height: 15px;
+}
+
+.connection{
+    background: #f3e7e7;
+}
+
+.lost_connection{
+    background: indianred;
+    color: white;
+}
+
+.error{
+    color:red;
+}
+
+.waiting{
+    background: burlywood;
+}
+
+.your_shot{
+    background: #0098ff;
+}
+
+
+.enemy_shot{
+    background: gold;
+}
+
+.win{
+    background: green;
+    color: white;
+}
+
+.lose{
+    background: #ff0404;
+    color: white;
+}

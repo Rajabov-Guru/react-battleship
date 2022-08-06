@@ -1,0 +1,15 @@
+.fleet_box_root{
+    /*padding: 20px;*/
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /*border: 1px solid black;*/
+}
+
+.fleet_item_box{
+    width:max-content;
+    display: flex;
+    gap: 20px;
+}

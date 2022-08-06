@@ -1,0 +1,27 @@
+.box{
+    --propor2 : 40px;
+    height: var(--propor2);
+    border: 1px solid #777777;
+}
+
+.single_placeholder{
+    width: var(--propor2);
+}
+.double_placeholder{
+    width: calc(var(--propor2)*2);
+}
+.three_placeholder{
+    width: calc(var(--propor2)*3);
+}
+.four_placeholder{
+    width: calc(var(--propor2)*4);
+}
+
+
+.can_drop{
+    background: green;
+}
+
+.cant_drop{
+    background: red;
+}
