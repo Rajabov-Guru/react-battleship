@@ -34,7 +34,7 @@ const MainPage = () => {
 
     useEffect(()=>{
         if(!Game.socket && Game.start){
-            const socket = new WebSocket("ws://test-sea-battle.na4u.ru/");
+            const socket = new WebSocket("wss://test-sea-battle.na4u.ru/");
             // const socket = new WebSocket("ws://test-sjea-battle.na4u.ru/");
             socket.onopen = ()=> {
                 console.log("Соединение установлено.");
@@ -150,7 +150,7 @@ const MainPage = () => {
 
                 {!Game.start &&
                     <div className={'wrapper'}>
-                        <div className={'explain'}>Отправьте ссылку ниже другу, для подключения ;)</div>
+                        <div className={'explain'}>Отправьте ссылку ниже другу, для подключения ;-)</div>
                         <div className={'url'}>{url}</div>
                     </div>
                 }
